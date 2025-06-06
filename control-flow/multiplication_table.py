@@ -1,8 +1,7 @@
 number = input('Enter a number to see its multiplication table:')
 
 
-for mutiple in range(1, 10):
+for n in range(1, 11):
     
-    product = number * mutiple
-    print(f"{number} * {mutiple} = {product}")
-    mutiple = mutiple + 1
+    product = number * n
+    print(f"{number} * {n} = {product}")

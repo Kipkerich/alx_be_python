@@ -15,10 +15,10 @@ match operation:
         
     case '/':
         if num2 == 0:
-            print('Number cannot be divided by zero')
+            print('Cannot be divided by zero')
         else:
             num1/ num2
     case _:
         print("No such operation")
         
-print (f"The result is {result}")
+print (f"The result is {result}.")

@@ -21,4 +21,4 @@ match operation:
     case _:
         print("No such operation")
         
-print (f"The result is {result}.")
+print (f"The result is {result}")

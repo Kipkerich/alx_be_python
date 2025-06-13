@@ -7,16 +7,16 @@ option = input('Is this temperature in Celcius or Fahrenheit?(C/F):')
 
 match option:
     case 'C':
-        def convert_to_celsius(fahrenheit):
-            celsius_value = ((fahrenheit-32) / (FAHRENHEIT_TO_CELSIUS_FACTOR ))
+        def convert_to_celsius():
+            celsius_value = ((temperature-32) / (FAHRENHEIT_TO_CELSIUS_FACTOR ))
             
-            print(f"{temperature}&degF is {celsius_value}&degC")
+            return print(f"{temperature}&degF is {celsius_value}&degC")
         
     case 'F':
-        def convert_to_fahreinheit(celsius):
-            fahrenheit_value = ((celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32 )
+        def convert_to_fahreinheit():
+            fahrenheit_value = ((temperature * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32 )
              
-            print(f"{temperature}&degC is {fahrenheit_value}&degF")
+            return print(f"{temperature}&degC is {fahrenheit_value}&degF")
          
     case _:
         print('Invalid option')

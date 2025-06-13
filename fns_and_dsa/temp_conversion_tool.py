@@ -8,7 +8,7 @@ option = input('Is this temperature in Celcius or Fahrenheit?(C/F):')
 match option:
     case 'C':
         def convert_to_celsius(fahrenheit):
-            celsius_value = ((fahrenheit-32) / (FAHRENHEIT_TO_CELCIUS_FACTOR ))
+            celsius_value = ((fahrenheit-32) / (FAHRENHEIT_TO_CELSIUS_FACTOR ))
             
             print(f"{temperature}&degF is {celsius_value}&degC")
         

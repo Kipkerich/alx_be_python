@@ -6,8 +6,11 @@ class BankAccount:
         
     def deposit(self, amount):
             return  self. account_balance + amount
-    def withdraw(amount):
-            pass
+    def withdraw(self, amount):
+            if (self.account_balance - amount) <= 0:
+                return False
+            else:
+                return True
         
     def display_balance():
             return print(f"Current Balance:")

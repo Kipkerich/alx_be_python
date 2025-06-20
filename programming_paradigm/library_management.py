@@ -1,9 +1,11 @@
 class Book:
     
+    __is_checked_out = None
+    
     def __init__(self, title, author, is_checked_out):
         self.title = title
         self.author = author
-        self.is_checked_out = is_checked_out
+        self.__is_checked_out = is_checked_out
         
     
 class Library(Book):

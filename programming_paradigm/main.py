@@ -4,7 +4,7 @@ from library_management import Book, Library
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python main.py <numerator> <denominator>")
+        print("Usage: python main.py 10 5")
         sys.exit(1)
 
     numerator = sys.argv[1]

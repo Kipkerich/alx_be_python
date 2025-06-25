@@ -14,7 +14,7 @@ def safe_divide(numerator, denominator):
         return print('Error: Please enter numeric values only.')
         
     else:
-         return print(f"The result of the division is {float(result)}")
+         print(f"The result of the division is {result}")
         
 
 

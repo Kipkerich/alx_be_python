@@ -14,8 +14,8 @@ def safe_divide(numerator, denominator):
         return print('Error: Please enter numeric values only.')
         
     else:
-         print(f"The result of the division is {result}")
+         return print(f"The result of the division is {result}")
         
 
 
-safe_divide(12, 2)
+safe_divide(10, 5)
